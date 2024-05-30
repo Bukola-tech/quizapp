@@ -1,0 +1,22 @@
+/* deleteUser.module.css */
+.deleteUser {
+    padding: 20px;
+  }
+  
+  .deleteUserContent {
+    margin-top: 20px;
+  }
+  
+  .deleteButton {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .deleteButton:hover {
+    background-color: darkred;
+  }
+  

@@ -1,0 +1,27 @@
+/* User Container */
+.app-container {
+  display: flex; /* Use flexbox to arrange Mail and Side components */
+  justify-content: space-between; /* Space components evenly */
+  align-items: flex-start; /* Align items at the start */
+  padding: 20px; /* Add padding */
+  height: 100vh; /* Take full height of viewport */
+  background-color: #f0f0f0; /* Light background color */
+}
+
+/* Mail Component Styles */
+.mail-container {
+  flex: 1; /* Take remaining space */
+  padding: 20px; /* Add padding */
+  background-color: #fff; /* White background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+/* Side Component Styles (Navbar) */
+.side-container {
+  width: 200px; /* Fixed width for sidebar */
+  padding: 20px; /* Add padding */
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  border-top-right-radius: 8px; /* Rounded top-right corner */
+}

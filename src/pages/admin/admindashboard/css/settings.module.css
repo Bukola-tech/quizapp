@@ -1,0 +1,22 @@
+/* settings.module.css */
+.settings {
+    padding: 20px;
+  }
+  
+  .settingsContent {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .settingItem {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  select {
+    padding: 5px;
+  }
+  

@@ -1,0 +1,157 @@
+.all_body {
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  overflow: hidden; 
+}
+
+#logo {
+  margin-top: 2%; 
+  margin-left: 2%; 
+}
+
+.instructions {
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-left: 2%; 
+  width: 310px;
+  margin-bottom: 1.5%;
+}
+
+#p{
+  font-size: 13px;
+  text-align: left; 
+  font-weight: 400;
+  margin-left: 2%;
+}
+
+#h4{
+  font-size: 13px;
+  text-align: left; 
+  font-weight: 600;
+}
+
+.quest_options {
+  background-color: rgb(255, 255, 255);
+  width: 80%; 
+  max-width: 800px; 
+  margin: auto; 
+  margin-top: -3.5%;
+  padding: 20px; 
+  box-sizing: border-box;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column; 
+  overflow: hidden; 
+  height: 90vh;
+}
+
+.question {
+  text-align: center;
+  width:auto;
+  margin-top: 2%;
+}
+
+.currenQuest {
+  border: 2px solid #fcbe1f;
+  height: 30px;
+  width: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background-color: #fcbe1f;
+  color: white;
+  margin-top: 20px;
+  margin-left: 40%;
+}
+
+#timer {
+  color: red;
+  font-weight: 700;
+}
+
+.currenQuest:hover {
+  background-color: #c98a00;
+  border-color: #c98a00;
+  cursor: pointer;
+}
+
+.optionContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 1.5%;
+  height: 220px;
+}
+
+.option-item {
+  display: flex;
+  align-items: center;
+}
+
+.option-radio {
+  width: 10px; 
+  height: 10px; 
+  margin-right: 10px;
+  position: fixed;
+}
+
+.option-label {
+  cursor: pointer;
+}
+
+.next-button {
+  margin-top: 20px;
+  padding: 8px 16px;
+  background-color: #fcbe1f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 40px;
+  width: 100px;
+  position: relative;
+  margin-left: 44%;
+}
+
+.next-button:hover {
+  background-color: #c98a00;
+}
+
+.option-radio:checked {
+  background-color: #fcbe1f;
+}
+
+input[type="radio"] {
+  display: none; 
+}
+
+input[type="radio"] + label::before {
+  content: '';
+  display: inline-block;
+  width: 10px; 
+  height: 10px; 
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  background-color: #fff;
+  margin-right: 5px;
+  
+}
+
+input[type="radio"]:checked + label::before {
+  background-color: #fcbe1f;
+  border-color: #fcbe1f;
+}
+
+

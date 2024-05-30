@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: whitesmoke;
+    
+}
+
+.login{
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 800px;
+    margin-top: 3.5%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-around;
+   
+
+    
+}
+
+.right{
+    height: 450px;
+    width:350px ;
+   
+    margin-top: 3.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.left{
+    height: 450px;
+    width:350px ;
+    margin-top: 3.5%;
+}
+
+#image{
+    
+    height: contain;
+    width: 350px;
+    /* border-radius: 30px; */
+    max-height: 450px;
+}
+
+#logo{
+    height: 40px;
+    width: 20px;
+}
+
+#logo img{
+   height: 100px;
+   width: 100px;
+}
+
+.admin_part{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.logo_adpart{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    
+   
+   
+}
+
+.part{
+    height: 100px;
+    width: 150px;
+    border: whitesmoke 2px solid;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    
+   
+    
+}
+
+.admin{
+    height: 100px;
+    width: 150px;
+    border: whitesmoke 2px solid;
+    border-radius: 25px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+  
+}
+
+.input{
+    height: 70%;
+   
+    
+   
+   
+}
+
+#adminImg{
+    width: 35px;
+    
+}
+
+#userImg{
+    width: 25px;
+}
+
+#sign{
+    font-size: 13px;
+    font-weight: 550;
+     margin-top: -15%;
+}
+

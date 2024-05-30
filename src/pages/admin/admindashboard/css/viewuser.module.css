@@ -1,0 +1,26 @@
+/* viewUsers.module.css */
+.viewUsers {
+    padding: 20px;
+  }
+  
+  .userTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .userTable th,
+  .userTable td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  .userTable th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  .userTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  

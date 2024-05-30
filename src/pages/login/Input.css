@@ -1,0 +1,61 @@
+
+
+.inputEU {
+    position: relative;
+  }
+  
+  .email label,
+  .password label {
+    position: relative;
+  }
+  
+  .email input,
+  .password input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .email label span,
+  .password label span {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .email label img,
+  .password label img {
+    width: 20px; 
+    height: 20px;
+    margin-right: 5px;
+  }
+
+  #key{
+    margin-top: 10px;
+  }
+  
+  #container {
+    width: 300px; 
+  }
+  
+  #sub {
+    padding: 10px 20px;
+    background-color:#fcbe1f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #sub:hover {
+    background-color: #c98a00;;
+  }
+  
+  #dont{
+    margin-top: 2%;
+  }

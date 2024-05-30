@@ -1,0 +1,43 @@
+/* FreeUsers.css */
+
+.free-users-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-right: 20px;
+  }
+  
+  .side-navigation {
+    flex: 0 0 200px; /* Fixed width for side navigation */
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .side-navigation h3 {
+    margin-bottom: 10px;
+  }
+  
+  .side-navigation ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .side-navigation li {
+    margin-bottom: 10px;
+  }
+  
+  .side-navigation li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .side-navigation li a:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  

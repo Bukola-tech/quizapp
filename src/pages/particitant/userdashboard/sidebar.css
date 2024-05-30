@@ -1,0 +1,51 @@
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .sidebar {
+    width: auto;
+    height: 100vh;
+    background-color: #fcbe1f;
+    color: #fff;
+    padding: 20px;
+    border-top-right-radius: 50px; /* Adjust the radius value as needed */
+  }
+
+  
+  .menu {
+    list-style-type: none;
+    padding: 10px;
+    
+  }
+  
+  .menu li {
+    margin-bottom: 15px;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-right: 10px;
+  }
+  
+  .text {
+    font-size: 16px;
+  }
+
+    .labelmenu{
+      margin-top: 30px;
+      background-color: black;
+      width: 90px;
+      height: 20px;
+      padding: 5px;
+      text-align: center;
+      border-radius: 5px;
+      padding-top: 10px;
+     
+    }

@@ -1,0 +1,50 @@
+/* homeStyles.css */
+*{
+    padding: 0;
+    margin: 0;
+}
+.centeredContent {
+    text-align: center;
+    margin-top: 10%;
+    max-width: 800px;
+    margin-left: 23%;
+    font-family: "Inter", sans-serif;
+    color: #FCBE1F;
+  } 
+  .image {
+    width: 20%; /* Adjust width as needed */
+    height: 20%; /* Adjust height as needed */
+    object-fit: contain;
+  }
+
+  .let{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FCBE1F;
+    font-weight: bolder;
+    margin-top: 3%;
+    color: white;
+  }
+  
+  /* Apply specific styles for smaller screens (e.g., mobile) */
+@media (max-width: 768px) {
+  .centeredContent {
+    margin-top: 20%; /* Adjust margin for smaller screens */
+    max-width: 90%; /* Adjust max-width for smaller screens */
+    margin-left: 5%; /* Adjust margin for smaller screens */
+  }
+
+  .image {
+    width: 70%; /* Adjust image width for smaller screens */
+    margin-top: 15%;
+  }
+
+  .let {
+    width: 80%; /* Adjust button width for smaller screens */
+    max-width: 200px; /* Limit maximum width for smaller screens */
+  }
+}
+
+  
